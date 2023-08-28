@@ -11,6 +11,8 @@
 		112DD67D2A9D294000A115F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DD67C2A9D294000A115F4 /* ContentView.swift */; };
 		112DD67F2A9D294000A115F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112DD67E2A9D294000A115F4 /* Assets.xcassets */; };
 		112DD6822A9D294000A115F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112DD6812A9D294000A115F4 /* Preview Assets.xcassets */; };
+		112DD6892A9D2A4D00A115F4 /* SetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DD6882A9D2A4D00A115F4 /* SetModel.swift */; };
+		112DD68B2A9D2A7500A115F4 /* SetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112DD68A2A9D2A7500A115F4 /* SetViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		112DD67C2A9D294000A115F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		112DD67E2A9D294000A115F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		112DD6812A9D294000A115F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		112DD6882A9D2A4D00A115F4 /* SetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetModel.swift; sourceTree = "<group>"; };
+		112DD68A2A9D2A7500A115F4 /* SetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				112DD67A2A9D294000A115F4 /* SetGameApp.swift */,
 				112DD67C2A9D294000A115F4 /* ContentView.swift */,
+				112DD6882A9D2A4D00A115F4 /* SetModel.swift */,
+				112DD68A2A9D2A7500A115F4 /* SetViewModel.swift */,
 				112DD67E2A9D294000A115F4 /* Assets.xcassets */,
 				112DD6802A9D294000A115F4 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				112DD67D2A9D294000A115F4 /* ContentView.swift in Sources */,
+				112DD68B2A9D2A7500A115F4 /* SetViewModel.swift in Sources */,
+				112DD6892A9D2A4D00A115F4 /* SetModel.swift in Sources */,
 				112DD67B2A9D294000A115F4 /* SetGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
