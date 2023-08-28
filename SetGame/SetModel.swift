@@ -91,7 +91,9 @@ struct SetGame<CardColor: Equatable, CardShape: Equatable, CardNumber: Equatable
     
     
     
-    struct Card {
+    struct Card: Identifiable {
+        var id: Int
+        
         let number: CardNumber
         let color: CardColor
         let shape: CardShape
